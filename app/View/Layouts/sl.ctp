@@ -41,9 +41,6 @@
 		<?php if($this->params['controller']!='pages'): ?>		
 		</section>
 		<?php endif ?>
-		<?php if($this->params['controller']!='pages'): ?>
-		<?php echo $this->element('aside')?>
-		<?php endif ?>		
 	</section>
 </section>
 <?php echo $this-> element ('footer')?>

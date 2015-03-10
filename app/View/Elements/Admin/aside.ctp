@@ -17,7 +17,6 @@
     </a>
     <ul class="dropdown-menu" role="menu">
 			<li <?php if($this->params['controller']=='faq_categories'): ?>class="active"<?php endif ?>><?=$this -> Html -> link(__('Faq Category'), array('controller' => 'faq_categories', 'action' => 'index')) ?></li>
-			<li <?php if($this->params['controller']=='gallery_categories'): ?>class="active"<?php endif ?>><?=$this -> Html -> link(__('Gallery Category'), array('controller' => 'gallery_categories', 'action' => 'index')) ?></li>
 			<li <?php if($this->params['controller']=='blog_categories'): ?>class="active"<?php endif ?>><?=$this -> Html -> link(__('Blog Category'), array('controller' => 'blog_categories', 'action' => 'index')) ?></li>
 			<li <?php if($this->params['controller']=='groups'): ?>class="active"<?php endif ?>><?=$this -> Html -> link(__('Group'), array('controller' => 'groups', 'action' => 'index')) ?></li>													
     </ul>

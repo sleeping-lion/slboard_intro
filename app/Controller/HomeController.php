@@ -22,10 +22,6 @@ final class HomeController extends SlController {
 		$this -> loadModel('GuestBook');
 		$this -> set('guest_books', $this -> GuestBook -> find('all', array('order'=>'id desc','limit' => 5, 'recursive' => -1)));
 
-		$this -> loadModel('Gallery');
-		$galleries=$this -> Gallery -> find('all', array('order'=>'id desc','limit' => 5, 'recursive' => -1));
-		$this -> set('galleries',array_chunk($galleries,5));
-
 		$this -> loadModel('Blog');
 		$this -> set('blogs', $this -> Blog -> find('all', array('conditions'=>array('photo is not null'),'order'=>'id desc','limit' => 5, 'recursive' => -1)));
 	}

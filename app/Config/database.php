@@ -74,7 +74,7 @@ class DATABASE_CONFIG {
 		'host' => 'localhost',
 		'login' => 'toughjjh',
 		'password' => 'jjh7479',
-		'database' => 'slboard_development',
+		'database' => 'slboard_intro',
 		'prefix' => '',
 		'encoding' => 'utf8'
 	);

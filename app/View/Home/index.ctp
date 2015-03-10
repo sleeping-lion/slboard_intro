@@ -6,7 +6,6 @@
 		<?php echo $this->element('GuestBooks/index') ?>
 	</section>
 	<section class="row">
-		<?php echo $this->element('Galleries/index') ?>
 		<?php echo $this->element('Blogs/index') ?>
 	</section>
 </section>
