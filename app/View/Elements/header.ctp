@@ -17,7 +17,6 @@
 			<li <?php if(!strcmp($this->params['controller'],'questions')): ?><?php echo 'class="active"' ?><?php endif ?>><?php echo$this->Html->link(__('Question').'<span class="visible-xs glyphicon glyphicon-chevron-right pull-right"></span>', array('controller' => 'questions','action'=>'index'),array('escape'=>false))?></li>
 			<li <?php if(!strcmp($this->params['controller'],'faqs')): ?><?php echo 'class="active"' ?><?php endif ?>><?php echo$this->Html->link(__('Faq').'<span class="visible-xs glyphicon glyphicon-chevron-right pull-right"></span>', array('controller' => 'faqs','action'=>'index'),array('escape'=>false))?></li>
 			<li <?php if(!strcmp($this->params['controller'],'guest_books')): ?><?php echo 'class="active"' ?><?php endif ?>><?php echo$this->Html->link(__('Guest Book').'<span class="visible-xs glyphicon glyphicon-chevron-right pull-right"></span>', array('controller' => 'guest_books','action'=>'index'),array('escape'=>false))?></li>
-			<li <?php if(!strcmp($this->params['controller'],'portfolios')): ?><?php echo 'class="active"' ?><?php endif ?>><?php echo$this->Html->link(__('Portfolio').'<span class="visible-xs glyphicon glyphicon-chevron-right pull-right"></span>', array('controller' => 'portfolios','action'=>'index'),array('escape'=>false))?></li>
 		</ul>
 	</nav>
 </header>
