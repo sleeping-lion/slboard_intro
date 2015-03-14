@@ -130,7 +130,8 @@ footer address {margin-top:10px }
 #sl_faq_index article {float:left;width:100%;margin:20px 0}
 #sl_faq_index article h3 {margin:0;padding:0}
 #sl_faq_index article h3 a {display:block;padding:10px}
-#sl_faq_index article h3 a:hover {text-decoration:none} 
+#sl_faq_index article .panel-primary h3 a {color:#000} 
+#sl_faq_index article h3 a:hover {text-decoration:none}
 .sl_faq_menu {float:right} 
 
 /* portfolio */
@@ -219,10 +220,7 @@ footer address {margin-top:10px }
 
 
 .sl_created_at {text-align:center;width:170px}
-
-
-
-#sl_search_form label {display:none}
+.sl_search_form label {display:none}
 
 
 
